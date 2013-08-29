@@ -1,0 +1,782 @@
+[INFO] Using config file found at: 
+[2013-08-01 12:08:18:739] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f22cd4367e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f22cd42a400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f22cd4396e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f22ccd3d19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f22ccd46ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f22ccd46d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®9DÃ" +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®9DÃ" +0xed) [0x7f22cc0ac76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:18:806] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f1c506c07e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f1c506b4400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f1c506c36e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f1c4ffc719c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f1c4ffd0ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f1c4ffd0d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ŸlO +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ŸlO +0xed) [0x7f1c4f33676d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:18:864] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f98733e77e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f98733db400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f98733ea6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f9872cee19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f9872cf7ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f9872cf7d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®I?rò +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®I?rò +0xed) [0x7f987205d76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:18:930] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f42636427e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f4263636400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f42636456e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f4262f4919c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f4262f52ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f4262f52d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®˘dbB +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®˘dbB +0xed) [0x7f42622b876d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:18:997] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f06dc4657e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f06dc459400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f06dc4686e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f06dbd6c19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f06dbd75ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f06dbd75d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®)G€ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®)G€ +0xed) [0x7f06db0db76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:057] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7ff5fdb1c7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7ff5fdb10400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7ff5fdb1f6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7ff5fd42319c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7ff5fd42cac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7ff5fd42cd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ô≤¸ı +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ô≤¸ı +0xed) [0x7ff5fc79276d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:122] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fc9bafe77e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fc9bafdb400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fc9bafea6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fc9ba8ee19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fc9ba8f7ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fc9ba8f7d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Iˇπ… +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Iˇπ… +0xed) [0x7fc9b9c5d76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:181] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f5174dae7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f5174da2400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f5174db16e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f51746b519c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f51746beac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f51746bed26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®π€sQ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®π€sQ +0xed) [0x7f5173a2476d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:240] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f96d43837e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f96d4377400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f96d43866e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f96d3c8a19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f96d3c93ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f96d3c93d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®	9”ñ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®	9”ñ +0xed) [0x7f96d2ff976d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:304] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f2b3dbd77e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f2b3dbcb400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f2b3dbda6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f2b3d4de19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f2b3d4e7ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f2b3d4e7d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Iæ<+ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Iæ<+ +0xed) [0x7f2b3c84d76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:363] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f3f4f11c7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f3f4f110400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f3f4f11f6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f3f4ea2319c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f3f4ea2cac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f3f4ea2cd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ôN? +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ôN? +0xed) [0x7f3f4dd9276d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:421] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fc0fada67e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fc0fad9a400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fc0fada96e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fc0fa6ad19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fc0fa6b6ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fc0fa6b6d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®9€˘¿ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®9€˘¿ +0xed) [0x7fc0f9a1c76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:491] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f58d42887e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f58d427c400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f58d428b6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f58d3b8f19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f58d3b98ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f58d3b98d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Y)”X +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Y)”X +0xed) [0x7f58d2efe76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:567] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fcaaf36e7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fcaaf362400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fcaaf3716e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fcaaec7519c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fcaaec7eac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fcaaec7ed26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®π7Æ  +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®π7Æ  +0xed) [0x7fcaadfe476d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:635] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f47842187e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f478420c400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f478421b6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f4783b1f19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f4783b28ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f4783b28d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Y"ÉG +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Y"ÉG +0xed) [0x7f4782e8e76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:700] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f5bd86f27e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f5bd86e6400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f5bd86f56e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f5bd7ff919c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f5bd8002ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f5bd8002d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®˘o◊[ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®˘o◊[ +0xed) [0x7f5bd736876d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:765] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f99cd9cc7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f99cd9c0400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f99cd9cf6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f99cd2d319c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f99cd2dcac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f99cd2dcd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ôùÃô +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ôùÃô +0xed) [0x7f99cc64276d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:823] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fd38f6387e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fd38f62c400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fd38f63b6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fd38ef3f19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fd38ef48ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fd38ef48d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Ydé” +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Ydé” +0xed) [0x7fd38e2ae76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:896] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f989000e7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f9890002400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f98900116e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f988f91519c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f988f91eac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f988f91ed26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®πèò +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®πèò +0xed) [0x7f988ec8476d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:19:964] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7ff58fac27e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7ff58fab6400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7ff58fac56e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7ff58f3c919c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7ff58f3d2ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7ff58f3d2d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®˘¨éı +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®˘¨éı +0xed) [0x7ff58e73876d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:035] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fe29f3667e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fe29f35a400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fe29f3696e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fe29ec6d19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fe29ec76ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fe29ec76d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®97û‚ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®97û‚ +0xed) [0x7fe29dfdc76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:105] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f0ef88f97e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f0ef88ed400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f0ef88fc6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f0ef820019c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f0ef8209ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f0ef8209d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®iê˜ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®iê˜ +0xed) [0x7f0ef756f76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:163] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f7e411a07e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f7e41194400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f7e411a36e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f7e40aa719c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f7e40ab0ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f7e40ab0d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Ÿ@~ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Ÿ@~ +0xed) [0x7f7e3fe1676d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:225] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f39d8bcf7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f39d8bc3400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f39d8bd26e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f39d84d619c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f39d84dfac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f39d84dfd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®…Ω◊9 +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®…Ω◊9 +0xed) [0x7f39d784576d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:288] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f05c84fc7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f05c84f0400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f05c84ff6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f05c7e0319c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f05c7e0cac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f05c7e0cd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ôP« +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ôP« +0xed) [0x7f05c717276d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:346] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fe47afe97e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fe47afdd400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fe47afec6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fe47a8f019c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fe47a8f9ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fe47a8f9d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®iˇy‰ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®iˇy‰ +0xed) [0x7fe479c5f76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:405] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f8c379e57e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f8c379d9400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f8c379e86e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f8c372ec19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f8c372f5ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f8c372f5d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®)ü6å +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®)ü6å +0xed) [0x7f8c3665b76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:475] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f4c220a67e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f4c2209a400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f4c220a96e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f4c219ad19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f4c219b6ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f4c219b6d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®9!L +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®9!L +0xed) [0x7f4c20d1c76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:539] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f0b921ee7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f0b921e2400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f0b921f16e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f0b91af519c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f0b91afeac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f0b91afed26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®πë +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®πë +0xed) [0x7f0b90e6476d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:08:20:598] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f3e8725c7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f3e87250400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f3e8725f6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f3e86b6319c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f3e86b6cac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f3e86b6cd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ô&Ü> +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ô&Ü> +0xed) [0x7f3e85ed276d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:34:841] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f2b030617e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f2b03055400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f2b030646e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f2b0296819c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f2b02971ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f2b02971d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®È+ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®È+ +0xed) [0x7f2b01cd776d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:34:900] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fb809ca77e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fb809c9b400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fb809caa6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fb8095ae19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fb8095b7ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fb8095b7d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®IÀ∏ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®IÀ∏ +0xed) [0x7fb80891d76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:34:959] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fc940b8f7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fc940b83400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fc940b926e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fc94049619c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fc94049fac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fc94049fd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®…π?… +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®…π?… +0xed) [0x7fc93f80576d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:023] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7ff5b4a867e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7ff5b4a7a400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7ff5b4a896e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7ff5b438d19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7ff5b4396ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7ff5b4396d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®9©≥ı +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®9©≥ı +0xed) [0x7ff5b36fc76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:094] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f69d124f7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f69d1243400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f69d12526e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f69d0b5619c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f69d0b5fac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f69d0b5fd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®…%–i +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®…%–i +0xed) [0x7f69cfec576d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:160] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fcabe60a7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fcabe5fe400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fcabe60d6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fcabdf1119c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fcabdf1aac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fcabdf1ad26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®yaΩ  +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®yaΩ  +0xed) [0x7fcabd28076d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:226] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f66df5537e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f66df547400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f66df5566e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f66dee5a19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f66dee63ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f66dee63d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®	Vﬁf +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®	Vﬁf +0xed) [0x7f66de1c976d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:293] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f0bf724d7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f0bf7241400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f0bf72506e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f0bf6b5419c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f0bf6b5dac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f0bf6b5dd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®©%ˆ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®©%ˆ +0xed) [0x7f0bf5ec376d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:356] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f1c8270a7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f1c826fe400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f1c8270d6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f1c8201119c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f1c8201aac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f1c8201ad26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®yqÅ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®yqÅ +0xed) [0x7f1c8138076d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:426] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f9da0c607e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f9da0c54400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f9da0c636e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f9da056719c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f9da0570ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f9da0570d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Ÿ∆üù +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Ÿ∆üù +0xed) [0x7f9d9f8d676d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:485] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f0c23ad87e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f0c23acc400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f0c23adb6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f0c233df19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f0c233e8ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f0c233e8d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®YÆ" +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®YÆ" +0xed) [0x7f0c2274e76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:543] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f0a660e67e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f0a660da400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f0a660e96e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f0a659ed19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f0a659f6ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f0a659f6d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®9e
+ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®9e
+ +0xed) [0x7f0a64d5c76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:610] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f82dd28b7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f82dd27f400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f82dd28e6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f82dcb9219c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f82dcb9bac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f82dcb9bd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®â)‹Ç +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®â)‹Ç +0xed) [0x7f82dbf0176d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:669] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f2347c867e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f2347c7a400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f2347c896e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f234758d19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f2347596ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f2347596d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®9…F# +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®9…F# +0xed) [0x7f23468fc76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:731] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f9a01d6e7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f9a01d62400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f9a01d716e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f9a0167519c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f9a0167eac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f9a0167ed26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®π◊ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®π◊ +0xed) [0x7f9a009e476d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:800] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fccb892c7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fccb8920400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fccb892f6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fccb823319c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fccb823cac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fccb823cd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ôì∑Ã +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ôì∑Ã +0xed) [0x7fccb75a276d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:862] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fd6ea4ae7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fd6ea4a2400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fd6ea4b16e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fd6e9db519c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fd6e9dbeac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fd6e9dbed26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®πKÈ÷ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®πKÈ÷ +0xed) [0x7fd6e912476d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:923] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f4ba40187e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f4ba400c400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f4ba401b6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f4ba391f19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f4ba3928ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f4ba3928d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Y£K +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Y£K +0xed) [0x7f4ba2c8e76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:35:996] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f91e704c7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f91e7040400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f91e704f6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f91e695319c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f91e695cac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f91e695cd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ôÊë +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ôÊë +0xed) [0x7f91e5cc276d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:062] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f396b6977e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f396b68b400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f396b69a6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f396af9e19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f396afa7ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f396afa7d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®Ijj9 +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®Ijj9 +0xed) [0x7f396a30d76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:131] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f99e8be07e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f99e8bd4400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f99e8be36e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f99e84e719c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f99e84f0ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f99e84f0d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®ŸæÁô +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®ŸæÁô +0xed) [0x7f99e785676d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:197] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7ff8428537e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7ff842847400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7ff8428566e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7ff84215a19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7ff842163ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7ff842163d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®	ÜA¯ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®	ÜA¯ +0xed) [0x7ff8414c976d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:266] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f9d2d9df7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f9d2d9d3400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f9d2d9e26e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f9d2d2e619c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f9d2d2efac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f9d2d2efd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®…û,ù +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®…û,ù +0xed) [0x7f9d2c65576d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:325] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fce4327b7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fce4326f400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fce4327e6e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fce42b8219c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fce42b8bac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fce42b8bd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®â(BŒ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®â(BŒ +0xed) [0x7fce41ef176d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:398] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f0b6c3227e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f0b6c316400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f0b6c3256e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f0b6bc2919c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f0b6bc32ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f0b6bc32d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®˘2k +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®˘2k +0xed) [0x7f0b6af9876d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:461] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7ff34ffa37e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7ff34ff97400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7ff34ffa66e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7ff34f8aa19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7ff34f8b3ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7ff34f8b3d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®	˚NÛ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®	˚NÛ +0xed) [0x7ff34ec1976d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:519] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fa9be2857e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fa9be279400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fa9be2886e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fa9bdb8c19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fa9bdb95ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fa9bdb95d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®))Ω© +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®))Ω© +0xed) [0x7fa9bcefb76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:584] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7f9291dcd7e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7f9291dc1400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7f9291dd06e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7f92916d419c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7f92916ddac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7f92916ddd26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®©›êí +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®©›êí +0xed) [0x7f9290a4376d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:650] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fda5dbe27e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fda5dbd6400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fda5dbe56e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fda5d4e919c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fda5d4f2ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fda5d4f2d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®˘æ\⁄ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®˘æ\⁄ +0xed) [0x7fda5c85876d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
+[INFO] Using config file found at: 
+[2013-08-01 12:14:36:708] [ERROR] Target out not found (/home/addis-ai/opencog_ocpkg/opencog/src/opencog/comboreduct/table/table_io.cc:851)
+	Stack Trace:
+	2: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::Logger::Error::operator()(char const*, ...) +0x92) [0x7fdb2a9457e2]
+	3: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::AssertionException::AssertionException(char const*, __va_list_tag*) +0x80) [0x7fdb2a939400]
+	4: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/util/libcogutil.so (opencog::cassert(char const*, bool, char const*, ...) +0x109) [0x7fdb2a9486e9]
+	5: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::inferTableAttributes(std::istream&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&, opencog::tree<opencog::combo::id::type_node, std::allocator<opencog::tree_node_<opencog::combo::id::type_node> > >&, bool&, bool&, int) +0x33c) [0x7fdb2a24c19c]
+	6: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::istreamTable_NEW(std::istream&, opencog::combo::Table&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x86) [0x7fdb2a255ac6]
+	7: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/comboreduct/libcomboreduct.so (opencog::combo::loadTable(std::string const&, std::string const&, std::vector<std::string, std::allocator<std::string> > const&) +0x1b6) [0x7fdb2a255d26]
+	8: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate (®)ï)€ +0x12df) [0x4223df]
+	9: /lib/x86_64-linux-gnu/libc.so.6 (®)ï)€ +0xed) [0x7fdb295bb76d]
+	10: /home/addis-ai/opencog_ocpkg/opencog/build/opencog/learning/moses/main/eval-candidate() [0x4237a5]
+
